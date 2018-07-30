@@ -1,0 +1,122 @@
+# Logfile created on 2018-07-30 23:23:52 +1000 by logger.rb/44203
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-07-30 23:23:52 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [74bd9750] Running /usr/bin/env mkdir -p /tmp as ubuntu@34.215.148.11
+ DEBUG [74bd9750] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-07-30 23:28:58 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [e8696983] Running /usr/bin/env mkdir -p /tmp as ubuntu@34.215.148.11
+ DEBUG [e8696983] Command: /usr/bin/env mkdir -p /tmp
+  INFO [e8696983] Finished in 2.694 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-js_deploy_test-staging-mikemo.sh 0.0%
+  INFO Uploading /tmp/git-ssh-js_deploy_test-staging-mikemo.sh 100.0%
+  INFO [b3f764af] Running /usr/bin/env chmod 700 /tmp/git-ssh-js_deploy_test-staging-mikemo.sh as ubuntu@34.215.148.11
+ DEBUG [b3f764af] Command: /usr/bin/env chmod 700 /tmp/git-ssh-js_deploy_test-staging-mikemo.sh
+  INFO [b3f764af] Finished in 0.485 seconds with exit status 0 (successful).
+  INFO [5ac8e4ad] Running /usr/bin/env git ls-remote github.com/cartooncatfish/js_capistrano.git HEAD as ubuntu@34.215.148.11
+ DEBUG [5ac8e4ad] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-js_deploy_test-staging-mikemo.sh" ; /usr/bin/env git ls-remote github.com/cartooncatfish/js_capistrano.git HEAD )
+ DEBUG [5ac8e4ad] 	fatal: 'github.com/cartooncatfish/js_capistrano.git' does not appear to be a git repository
+ DEBUG [5ac8e4ad] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-07-30 23:33:22 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [5371f938] Running /usr/bin/env mkdir -p /tmp as ubuntu@34.215.148.11
+ DEBUG [5371f938] Command: /usr/bin/env mkdir -p /tmp
+  INFO [5371f938] Finished in 3.017 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-js_deploy_test-staging-mikemo.sh 0.0%
+  INFO Uploading /tmp/git-ssh-js_deploy_test-staging-mikemo.sh 100.0%
+  INFO [257793f1] Running /usr/bin/env chmod 700 /tmp/git-ssh-js_deploy_test-staging-mikemo.sh as ubuntu@34.215.148.11
+ DEBUG [257793f1] Command: /usr/bin/env chmod 700 /tmp/git-ssh-js_deploy_test-staging-mikemo.sh
+  INFO [257793f1] Finished in 0.448 seconds with exit status 0 (successful).
+  INFO [2c5b3aef] Running /usr/bin/env git ls-remote github.com/cartooncatfish/js_capistrano.git HEAD as ubuntu@34.215.148.11
+ DEBUG [2c5b3aef] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-js_deploy_test-staging-mikemo.sh" ; /usr/bin/env git ls-remote github.com/cartooncatfish/js_capistrano.git HEAD )
+ DEBUG [2c5b3aef] 	fatal: 'github.com/cartooncatfish/js_capistrano.git' does not appear to be a git repository
+ DEBUG [2c5b3aef] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-07-30 23:34:39 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [9757164d] Running /usr/bin/env mkdir -p /tmp as ubuntu@34.215.148.11
+ DEBUG [9757164d] Command: /usr/bin/env mkdir -p /tmp
+  INFO [9757164d] Finished in 2.665 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-js_deploy_test-staging-mikemo.sh 0.0%
+  INFO Uploading /tmp/git-ssh-js_deploy_test-staging-mikemo.sh 100.0%
+  INFO [2cfdd084] Running /usr/bin/env chmod 700 /tmp/git-ssh-js_deploy_test-staging-mikemo.sh as ubuntu@34.215.148.11
+ DEBUG [2cfdd084] Command: /usr/bin/env chmod 700 /tmp/git-ssh-js_deploy_test-staging-mikemo.sh
+  INFO [2cfdd084] Finished in 0.583 seconds with exit status 0 (successful).
+  INFO [a2f4fc9e] Running /usr/bin/env git ls-remote git@github.com:cartooncatfish/js_capistrano.git HEAD as ubuntu@34.215.148.11
+ DEBUG [a2f4fc9e] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-js_deploy_test-staging-mikemo.sh" ; /usr/bin/env git ls-remote git@github.com:cartooncatfish/js_capistrano.git HEAD )
+ DEBUG [a2f4fc9e] 	Warning: Permanently added the RSA host key for IP address '192.30.255.113' to the list of known hosts.
+ DEBUG [a2f4fc9e] 	9ccc14f48475cdfaeaabeb49b0fc9acf17efc5ae	HEAD
+  INFO [a2f4fc9e] Finished in 1.274 seconds with exit status 0 (successful).
+  INFO [8ce173ac] Running /usr/bin/env mkdir -p /var/www/mytest/shared /var/www/mytest/releases as ubuntu@34.215.148.11
+ DEBUG [8ce173ac] Command: /usr/bin/env mkdir -p /var/www/mytest/shared /var/www/mytest/releases
+  INFO [8ce173ac] Finished in 0.555 seconds with exit status 0 (successful).
+ DEBUG [9bcbe997] Running [ -f /var/www/mytest/current/REVISION ] as ubuntu@34.215.148.11
+ DEBUG [9bcbe997] Command: [ -f /var/www/mytest/current/REVISION ]
+ DEBUG [9bcbe997] Finished in 0.471 seconds with exit status 1 (failed).
+ DEBUG [27224a9b] Running [ -f /var/www/mytest/repo/HEAD ] as ubuntu@34.215.148.11
+ DEBUG [27224a9b] Command: [ -f /var/www/mytest/repo/HEAD ]
+ DEBUG [27224a9b] Finished in 0.565 seconds with exit status 1 (failed).
+ DEBUG [6b2dffc1] Running if test ! -d /var/www/mytest; then echo "Directory does not exist '/var/www/mytest'" 1>&2; false; fi as ubuntu@34.215.148.11
+ DEBUG [6b2dffc1] Command: if test ! -d /var/www/mytest; then echo "Directory does not exist '/var/www/mytest'" 1>&2; false; fi
+ DEBUG [6b2dffc1] Finished in 0.522 seconds with exit status 0 (successful).
+  INFO [e8af20a8] Running /usr/bin/env git clone --mirror git@github.com:cartooncatfish/js_capistrano.git /var/www/mytest/repo as ubuntu@34.215.148.11
+ DEBUG [e8af20a8] Command: cd /var/www/mytest && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-js_deploy_test-staging-mikemo.sh" ; /usr/bin/env git clone --mirror git@github.com:cartooncatfish/js_capistrano.git /var/www/mytest/repo )
+ DEBUG [e8af20a8] 	Cloning into bare repository '/var/www/mytest/repo'...
+  INFO [e8af20a8] Finished in 1.224 seconds with exit status 0 (successful).
+ DEBUG [cc8b52e3] Running if test ! -d /var/www/mytest/repo; then echo "Directory does not exist '/var/www/mytest/repo'" 1>&2; false; fi as ubuntu@34.215.148.11
+ DEBUG [cc8b52e3] Command: if test ! -d /var/www/mytest/repo; then echo "Directory does not exist '/var/www/mytest/repo'" 1>&2; false; fi
+ DEBUG [cc8b52e3] Finished in 0.432 seconds with exit status 0 (successful).
+  INFO [47f27873] Running /usr/bin/env git remote set-url origin git@github.com:cartooncatfish/js_capistrano.git as ubuntu@34.215.148.11
+ DEBUG [47f27873] Command: cd /var/www/mytest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-js_deploy_test-staging-mikemo.sh" ; /usr/bin/env git remote set-url origin git@github.com:cartooncatfish/js_capistrano.git )
+  INFO [47f27873] Finished in 0.416 seconds with exit status 0 (successful).
+  INFO [1b6125cd] Running /usr/bin/env git remote update --prune as ubuntu@34.215.148.11
+ DEBUG [1b6125cd] Command: cd /var/www/mytest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-js_deploy_test-staging-mikemo.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [1b6125cd] 	Fetching origin
+  INFO [1b6125cd] Finished in 1.080 seconds with exit status 0 (successful).
+ DEBUG [b2b23a67] Running if test ! -d /var/www/mytest/repo; then echo "Directory does not exist '/var/www/mytest/repo'" 1>&2; false; fi as ubuntu@34.215.148.11
+ DEBUG [b2b23a67] Command: if test ! -d /var/www/mytest/repo; then echo "Directory does not exist '/var/www/mytest/repo'" 1>&2; false; fi
+ DEBUG [b2b23a67] Finished in 0.608 seconds with exit status 0 (successful).
+  INFO [3c7a5ded] Running /usr/bin/env mkdir -p /var/www/mytest/releases/20180730133446 as ubuntu@34.215.148.11
+ DEBUG [3c7a5ded] Command: cd /var/www/mytest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-js_deploy_test-staging-mikemo.sh" ; /usr/bin/env mkdir -p /var/www/mytest/releases/20180730133446 )
+  INFO [3c7a5ded] Finished in 0.436 seconds with exit status 0 (successful).
+  INFO [b0419659] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/mytest/releases/20180730133446 as ubuntu@34.215.148.11
+ DEBUG [b0419659] Command: cd /var/www/mytest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-js_deploy_test-staging-mikemo.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/mytest/releases/20180730133446 )
+  INFO [b0419659] Finished in 0.453 seconds with exit status 0 (successful).
+ DEBUG [714669db] Running if test ! -d /var/www/mytest/repo; then echo "Directory does not exist '/var/www/mytest/repo'" 1>&2; false; fi as ubuntu@34.215.148.11
+ DEBUG [714669db] Command: if test ! -d /var/www/mytest/repo; then echo "Directory does not exist '/var/www/mytest/repo'" 1>&2; false; fi
+ DEBUG [714669db] Finished in 0.468 seconds with exit status 0 (successful).
+ DEBUG [55a40f2f] Running /usr/bin/env git rev-list --max-count=1 master as ubuntu@34.215.148.11
+ DEBUG [55a40f2f] Command: cd /var/www/mytest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-js_deploy_test-staging-mikemo.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [55a40f2f] 	9ccc14f48475cdfaeaabeb49b0fc9acf17efc5ae
+ DEBUG [55a40f2f] Finished in 0.422 seconds with exit status 0 (successful).
+ DEBUG [f01f619b] Running if test ! -d /var/www/mytest/releases/20180730133446; then echo "Directory does not exist '/var/www/mytest/releases/20180730133446'" 1>&2; false; fi as ubuntu@34.215.148.11
+ DEBUG [f01f619b] Command: if test ! -d /var/www/mytest/releases/20180730133446; then echo "Directory does not exist '/var/www/mytest/releases/20180730133446'" 1>&2; false; fi
+ DEBUG [f01f619b] Finished in 0.436 seconds with exit status 0 (successful).
+  INFO [7a3fe570] Running /usr/bin/env echo "9ccc14f48475cdfaeaabeb49b0fc9acf17efc5ae" >> REVISION as ubuntu@34.215.148.11
+ DEBUG [7a3fe570] Command: cd /var/www/mytest/releases/20180730133446 && /usr/bin/env echo "9ccc14f48475cdfaeaabeb49b0fc9acf17efc5ae" >> REVISION
+  INFO [7a3fe570] Finished in 0.569 seconds with exit status 0 (successful).
+  INFO [7719376c] Running /usr/bin/env ln -s /var/www/mytest/releases/20180730133446 /var/www/mytest/releases/current as ubuntu@34.215.148.11
+ DEBUG [7719376c] Command: /usr/bin/env ln -s /var/www/mytest/releases/20180730133446 /var/www/mytest/releases/current
+  INFO [7719376c] Finished in 0.431 seconds with exit status 0 (successful).
+  INFO [f6ceaad7] Running /usr/bin/env mv /var/www/mytest/releases/current /var/www/mytest as ubuntu@34.215.148.11
+ DEBUG [f6ceaad7] Command: /usr/bin/env mv /var/www/mytest/releases/current /var/www/mytest
+  INFO [f6ceaad7] Finished in 0.456 seconds with exit status 0 (successful).
+ DEBUG [b7ca76a3] Running /usr/bin/env ls -x /var/www/mytest/releases as ubuntu@34.215.148.11
+ DEBUG [b7ca76a3] Command: /usr/bin/env ls -x /var/www/mytest/releases
+ DEBUG [b7ca76a3] 	20180730133446
+ DEBUG [b7ca76a3] Finished in 0.461 seconds with exit status 0 (successful).
+ DEBUG [632e6ff6] Running if test ! -d /var/www/mytest/releases; then echo "Directory does not exist '/var/www/mytest/releases'" 1>&2; false; fi as ubuntu@34.215.148.11
+ DEBUG [632e6ff6] Command: if test ! -d /var/www/mytest/releases; then echo "Directory does not exist '/var/www/mytest/releases'" 1>&2; false; fi
+ DEBUG [632e6ff6] Finished in 0.434 seconds with exit status 0 (successful).
+  INFO [f3d35d04] Running /usr/bin/env echo "Branch master (at 9ccc14f48475cdfaeaabeb49b0fc9acf17efc5ae) deployed as release 20180730133446 by mikemo" >> /var/www/mytest/revisions.log as ubuntu@34.215.148.11
+ DEBUG [f3d35d04] Command: cd /var/www/mytest/releases && /usr/bin/env echo "Branch master (at 9ccc14f48475cdfaeaabeb49b0fc9acf17efc5ae) deployed as release 20180730133446 by mikemo" >> /var/www/mytest/revisions.log
+  INFO [f3d35d04] Finished in 0.540 seconds with exit status 0 (successful).
