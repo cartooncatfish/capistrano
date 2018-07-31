@@ -33,3 +33,6 @@ set :repo_url, "git@github.com:cartooncatfish/js_capistrano.git"
 
 # Default value for keep_releases is 5
 # set :keep_releases, 5
+
+# run the npm install command 
+before 'deploy:updated', 'npm:install'
